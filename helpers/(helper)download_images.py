@@ -10,8 +10,8 @@ names = ('Kim Nam Joon', 'Kim Seok Jin', 'Min Yoon Gi', 'Jung Ho Seok', 'Park Ji
 try:
     for name in names:
         download(name, 100)
-except:
-    print('Error')
+except Exception as e:
+    print(e)
 else:
     print('Success')
 
