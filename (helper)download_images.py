@@ -1,5 +1,4 @@
 from simple_image_download import simple_image_download as simp
-import os
 import requests
 
 def download(query, limit):
@@ -11,8 +10,11 @@ def download(query, limit):
 
 names = ('Kim Nam Joon', 'Kim Seok Jin', 'Min Yoon Gi', 'Jung Ho Seok', 'Park Ji Min', 'Kim Tae Hyung', 'Jeon Jung Kook')
 
-for name in names:
-    download(name, 100)
+try:
+    for name in names:
+        download(name, 100)
+except:
+    print('Error')
+else:
+    print('Success')
 
-if os.path.isdir(os.path.join(os.getcwd(), 'simple_images')):
-    print("Success")
