@@ -2,7 +2,7 @@ import xml.etree.ElementTree as ET
 import os
 
 try:
-    base_path = os.path.join(os.getcwd(), 'simple_images')
+    base_path = os.path.join('resources', 'images')
     root = ET.Element('data')
     id = 1
     for name in os.listdir(base_path):
@@ -13,15 +13,15 @@ try:
             question = ET.Element('question')
             id_json = ET.Element('id')
             id_json.text = str(id)
-            image = ET.Element('image')
-            image.text = str(open(os.path.join(images_path, image_name), 'rb').read())
+            image = ET.Element('image_path')
+            image.text = os.path.join(images_path, image_name)
             question.append(id_json)
             question.append(answer)
             question.append(image)
             id += 1
             root.append(question)
 
-    open('resources\\data.xml', 'w').write(ET.tostring(root, encoding='unicode'))
+    open('resources\\data.xml', 'wb').write(ET.tostring(root))
 except Exception as e:
     print(e)
 else:
