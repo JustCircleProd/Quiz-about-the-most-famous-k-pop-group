@@ -1,39 +1,38 @@
 ## BTS Test❓
 **A desktop quiz app dedicated to the members of the k-pop group BTS.**  
-Contains questions such as - Guess by photo (photo and 7 answer choices).
+*Contains questions such as - Guess by photo (photo and 7 answer choices).*
 
-## Technologies and construction🐍
+# Technologies and construction🐍
 
 Language: Python  
 
-*The modules were used:*  
-- simple_image_download  
-- xml  
-- PyQT5  
-- win32gui  
+*The modules were used:*
+- simple_image_download - to upload images
+- xml - to create and work with information 
+- PyQT5 - to build the interface
+- win32gui - to work with the font
 
-*Directories:*  
+*Directories:*
 - folder helpers(not necessary for the program to work):  
   - download_images.py - for download images from google pictures, creates a folder named simple_images  
   - rename_directories - rename directory  
   - create_xml - creating xml file with ids, answer, images_path data (images stores in resources/images)  
-
 - folder resources stores all static files  
-
 - folder ui stores generated ui files by designer PyQT5  
-
 - DataModel helps with data(get Count, get Question by id)  
-
 - main - the program itself
 
-## Screenshots🖼
+# Screenshots🖼
 <p float="center">
   <img src="screenshots/screenshot_1.png" alt="Question sample">
   <img src="screenshots/screenshot_2.png" alt="Question sample">
   <img src="screenshots/screenshot_3.png" alt="Result screen">
 </p>
 
-## License📝
+# Notes✍️
+This program was written for training, so it can have a lot of flaws.
+
+# License📝
       Copyright 2021 JustCircle Prod. (Vadim Karchagin)
 
       Licensed under the Apache License, Version 2.0 (the "License");
