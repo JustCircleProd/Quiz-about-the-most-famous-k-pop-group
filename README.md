@@ -1,4 +1,4 @@
-# A quiz about the most famous k-pop group❓
+# Quiz about the most famous k-pop group❓
 **A desktop quiz app dedicated to the members of the k-pop group BTS.**  
 *Contains questions such as - Guess by photo (photo and 7 answer choices).*
 
