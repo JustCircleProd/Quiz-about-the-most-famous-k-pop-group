@@ -1,4 +1,4 @@
-## BTS Test❓
+# A quiz about the most famous k-pop group❓
 **A desktop quiz app dedicated to the members of the k-pop group BTS.**  
 *Contains questions such as - Guess by photo (photo and 7 answer choices).*
 
@@ -22,17 +22,17 @@ Language: Python
 - DataModel helps with data(get Count, get Question by id)  
 - main - the program itself
 
-# Screenshots🖼
+## Screenshots🖼
 <p float="center">
   <img src="screenshots/screenshot_1.png" alt="Question sample">
   <img src="screenshots/screenshot_2.png" alt="Question sample">
   <img src="screenshots/screenshot_3.png" alt="Result screen">
 </p>
 
-# Notes✍️
+## Notes✍️
 This program was written for training, so it can have a lot of flaws.
 
-# License📝
+## License📝
       Copyright 2021 JustCircle Prod. (Vadim Karchagin)
 
       Licensed under the Apache License, Version 2.0 (the "License");
