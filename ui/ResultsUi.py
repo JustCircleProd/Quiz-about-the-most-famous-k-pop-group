@@ -73,6 +73,6 @@ class Ui_Form(object):
 
     def retranslateUi(self, Form):
         _translate = QtCore.QCoreApplication.translate
-        Form.setWindowTitle(_translate("Form", "OnlyBtsFuns"))
+        Form.setWindowTitle(_translate("Form", "K-Pop Quiz"))
         self.amount_of_questions.setText(_translate("Form", "10 правильных ответов из 10"))
         self.comment.setText(_translate("Form", "Пришли сюда, чтобы сфоткаться и поздравить тебя Как видишь мы уже сфоткались"))

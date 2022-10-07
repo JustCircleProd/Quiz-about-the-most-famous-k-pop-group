@@ -43,7 +43,7 @@ class Ui_MainWindow(object):
         self.frame.setFrameShadow(QtWidgets.QFrame.Raised)
         self.frame.setObjectName("frame")
         self.caption = QtWidgets.QLabel(self.frame)
-        self.caption.setGeometry(QtCore.QRect(117, 4, 135, 35))
+        self.caption.setGeometry(QtCore.QRect(128, 4, 135, 35))
         font = QtGui.QFont()
         font.setFamily("Ponter")
         font.setPixelSize(26)
@@ -231,8 +231,8 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "OnlyBtsFuns"))
-        self.caption.setText(_translate("MainWindow", "OnlyBtsFuns"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "K-Pop Quiz"))
+        self.caption.setText(_translate("MainWindow", "K-Pop Quiz"))
         self.questionNumber.setText(_translate("MainWindow", "Вопрос 1 из 10"))
         self.question.setText(_translate("MainWindow", " Кто на фото?"))
         self.jeon_jung_kook.setText(_translate("MainWindow", "Jeon Jung Kook"))

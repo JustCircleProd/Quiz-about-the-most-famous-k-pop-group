@@ -48,5 +48,5 @@ class Ui_Warning(object):
 
     def retranslateUi(self, Warning):
         _translate = QtCore.QCoreApplication.translate
-        Warning.setWindowTitle(_translate("Warning", "OnlyBTSFuns"))
+        Warning.setWindowTitle(_translate("Warning", "K-Pop Quiz"))
         self.comment.setText(_translate("Warning", "Для корректной работы приложения зайдите в папку \"resources\", откройте файл \"Ponter.ttf\" и установите данный шрифт. После чего перезапустите приложение"))

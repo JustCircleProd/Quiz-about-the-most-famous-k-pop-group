@@ -2,7 +2,7 @@
 **A desktop quiz app dedicated to the members of the k-pop group BTS.**  
 *Contains questions such as - Guess by photo (photo and 7 answer choices).*
 
-# Technologies and construction🐍
+## Technologies and construction🐍
 
 Language: Python  
 
